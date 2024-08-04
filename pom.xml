@@ -17,5 +17,13 @@
   </dependencies>
   <build>
     <finalName>01-Maven-WebApp-StarAgile</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- Use the latest stable version -->
+        </plugin>
+    </plugins>
   </build>
 </project>
+
